@@ -8,8 +8,8 @@
     <form>
       <div class="form-group">
         <label>movie/show:</label>
-        <input type="text" class="form-control">
-        <button class="btn btn-primary" (click)="firstClick()" routerLink="/{{id}}">submit</button>
+        <input type="text" class="form-control" (keyup)="onKeyUp($event)">
+        <button class="btn btn-primary" (click)="submitClick()" routerLink="/{{id}}">submit</button>
       </div>
     </form>
   </div>

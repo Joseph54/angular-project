@@ -1,10 +1,10 @@
 import { NgModule } from '@angular/core';
-import { Routes, RouterModule } from '@angular/router';
-/*import { NavComponent } from './nav/nav.component';*/
+import { RouterModule, Routes } from '@angular/router';
+import { NavComponent } from './nav/nav.component';
 
-const routes: Routes = [];
-  // { path: '/:id', component: NavComponent}
-
+const routes: Routes = [
+ { path: 'nav', component: NavComponent}
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

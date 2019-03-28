@@ -16,7 +16,7 @@ appTitle = 'movie finder';
 firstClick() {
     console.log('hello');
 }*/
-  firstClick() {
+  submitClick() {
     this.data.firstClick();
   }
 
